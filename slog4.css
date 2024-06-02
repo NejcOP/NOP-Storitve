@@ -1,0 +1,143 @@
+body, h1, h2, h3, p, ul, li, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+    color: #333;
+    font-size: 15px;
+}
+
+header {
+    background-color: #1bd8e6;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.računalniki {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.računalnik {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.računalnik img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.računalnik h3 {
+    margin-top: 10px;
+}
+
+.računalnik p {
+    margin: 5px 0;
+}
+.računalniki .računalnik img{
+    width: 100%;
+    height: 300px;
+}
+
+.računalniki .računalnik ul li{
+    list-style-type: none;
+}
+.ob{
+    font-size: 20px;
+    
+}
+
+.poravnava{
+    text-align: center;
+}
+
+
+footer {
+    padding: 20px;
+    background-color: rgb(36, 35, 43);
+    color: white;
+    margin: 0px 10px 10px 10px;
+}
+.vec{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+.vec:hover{
+    filter: brightness(50%);
+}
+
+.logo {
+    width: auto;
+    height: 60px;
+ }
+
+.socialno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.socialno img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.facebook:hover img, .instagram:hover img, .twitter:hover img, .linkedin:hover img {
+    filter: brightness(50%);
+}
+
+.kontakt {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.kontakt ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.kontakt li {
+    margin-bottom: 10px
+}

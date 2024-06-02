@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOP storitve</title>
+    <meta name="author" content="Nejc Ozebek Pavlin">
+    <link rel="icon" href="slike/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="slog5.css">
+</head>
+<body>
+  <header>
+    <h1>NOP STORITVE <a href="index.html"><img class="logo" src="slike/logo1.png" alt="NOP logotip"></a></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">ZAČETNA STRAN</a></li>
+        <li><a href="onas.html">O NAS</a></li>
+        <li><a href="storitve.html">STORITVE</a></li>
+        <li><a href="projekti.html">PROJEKTI</a></li>
+        <li><a href="sestavljeni_racunalniki.html">SESTAVLJENI RAČUNALNIKI</a></li>
+        <li><a href="kontakt.html">KONTAKT</a></li>
+        <li><a href="lokacija.html">LOKACIJA</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="form-section">
+    <form>
+        <div class="form-group">
+            <label for="coumputers">Izberite kateri računalnik želite naročiti:</label>
+            <select name="coumputers" id="coumputers" class="form-control">
+                <option value="Dell OptiPlex 7090">Dell OptiPlex 7090</option>
+                <option value="HP Envy Desktop TE01">HP Envy Desktop TE01</option>
+                <option value="Lenovo ThinkCentre M90t">Lenovo ThinkCentre M90t</option>
+                <option value="Acer Aspire TC-895-UA91">Acer Aspire TC-895-UA91</option>
+                <option value="ASUS ROG Strix GA15">ASUS ROG Strix GA15</option>
+                <option value="MSI MEG Trident X">MSI MEG Trident X</option>
+                <option value="Alienware Aurora R11">Alienware Aurora R11</option>
+                <option value="Corsair One a200">Corsair One a200</option>
+                <option value="Intel NUC 11 Enthusiast">Intel NUC 11 Enthusiast</option>
+                <option value="Lenovo Legion Tower 5i">Lenovo Legion Tower 5i</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="fname">Ime:</label>
+            <input type="text" id="fname" name="fname" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="lname">Priimek:</label>
+            <input type="text" id="lname" name="lname" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="address">Naslov:</label>
+            <input type="text" id="address" name="address" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Telefonska številka:</label>
+            <input type="tel" id="phone" name="phone" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="measege">Opombe:</label>
+            <input type="textbox" id="measege" name="measege" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="payment">Plačilna metoda: </label><br>
+            <label><input type="radio" name="payment" value="Credit Card" required> Credit Card</label><br>
+            <label><input type="radio" name="payment" value="PayPal"> PayPal</label><br>
+            <label><input type="radio" name="payment" value="Bank Transfer"> Bank Transfer</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Oddaj</button></a>
+    </form>
+  </section>
+  <footer>
+    <div class="kontakt">Kontakti: 
+      <ul>
+        <li>NOP team</li>
+        <li>Telefon: +384 04 863 849</li>
+        <li>Elektronska pošta: <a href="mailto:nop.storitve24@gmail.com" id="posta">nop.storitve24@gmail.com</a></li>
+        <li>Naslov: Kidričeva cesta 36, Kranj 4000</li>
+      </ul>
+    </div>
+    <div class="socialno">
+      <div class="facebook"><a href="https://www.facebook.com/"><img src="slike/facebook.png" alt="facebook logo"></a></div>
+      <div class="instagram"><a href="https://www.instagram.com/"><img src="slike/instagram.jpg" alt="instagram logo"></a></div>
+      <div class="twitter"><a href="https://twitter.com/"><img src="slike/twitter.png" alt="twitter logo"></a></div>
+      <div class="linkedin"><a href="https://si.linkedin.com/"><img src="slike/linkedin.png" alt="linkedin logo"></a></div>
+    </div>
+  </footer>
+
+  &copy; 2024 NOP STORITVE
+
+</body>
+</html>

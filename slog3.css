@@ -1,0 +1,149 @@
+/* Common styles */
+body, h1, h2, h3, p, ul, li, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+    color: #333;
+    font-size: 15px;
+}
+
+header {
+    background-color: #1bd8e6;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo {
+    width: auto;
+    height: 60px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.projekti {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.projekti h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1bd8e6;
+}
+
+.projekt {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.projekt h3 {
+    margin-bottom: 10px;
+    color: #1bd8e6;
+}
+
+.projekt p {
+    margin-bottom: 10px;
+}
+
+.projekt img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+footer {
+    padding: 20px;
+    background-color: rgb(36, 35, 43);
+    color: white;
+    margin: 0px 10px 10px 10px;
+}
+
+.socialno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.socialno img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.facebook:hover img, .instagram:hover img, .twitter:hover img, .linkedin:hover img {
+    filter: brightness(50%);
+}
+
+.kontakt {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.kontakt ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.kontakt li {
+    margin-bottom: 10px;
+}
+
+/* Media query for phones */
+@media only screen and (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .projekt img {
+        width: 100%;
+    }
+}

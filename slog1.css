@@ -1,0 +1,128 @@
+/* Common styles */
+body, h1, h2, h3, p, ul, li, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+}
+
+header {
+    background-color: #1bd8e6;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo {
+    width: auto;
+    height: 60px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #000;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.opis {
+    margin: 20px 0;
+}
+
+h2 {
+    margin: 20px 0;
+    font-weight: bold;
+    color: #1bd8e6;
+    text-decoration: underline;
+}
+
+h3 {
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+    color: #333;
+}
+
+ul.izbira {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul.izbira li {
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 20px;
+    background-color: rgb(36, 35, 43);
+    color: white;
+    margin: 0px 10px 10px 10px;
+}
+
+.socialno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.socialno img {
+    width: 40px;
+    height: 40px;
+}
+
+.facebook:hover img, .instagram:hover img, .twitter:hover img, .linkedin:hover img {
+    filter: brightness(50%);
+}
+
+.kontakt {
+    text-align: center;
+}
+
+.kontakt li {
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+/* Media query for phones */
+@media only screen and (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+    
+    nav ul {
+        text-align: center;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
